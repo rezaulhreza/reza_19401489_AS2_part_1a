@@ -1,0 +1,364 @@
+/* ///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// Generic CSS  //////////////////////////////////// */
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.active {
+    color: #00cdac !important;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.name-highlight {
+    color: #FFA033;
+    font-size: 40px;
+}
+
+.name-highlight2 {
+    color: #00cdac;
+    font-size: 32px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.underline {
+    width: 80px;
+    height: 3px;
+    border-radius: 20px;
+    margin: 30px auto;
+    background-color: #FFA033;
+    margin-bottom: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-general {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.btn-portfolio {
+    color: #02B0AF;
+    font-size: 16px;
+    border: 2px solid #02B0AF;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    background-color: #02B0AF;
+    color: white;
+    border: 2px solid #02B0AF;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// Navigation  //////////////////////////////////// */
+
+
+#nav-bg {
+    background-color: whitesmoke;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: #444;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+    opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+    -webkit-transition: transform .35s ease-in-out;
+    -moz-transition: transform .35s ease-in-out;
+    -o-transition: transform .35s ease-in-out;
+    transition: transform .35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    bottom: 12px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler span {
+    background-color: #FFA033;
+}
+
+.navbar-light .navbar-toggler {
+    color: #FFA033;
+    border-color: #FFA033;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////// Home /////////////////////////////////////// */
+
+
+#home {
+    display: flex;
+    align-items: center;
+    padding: 40px 40px;
+    margin-top: 20px;
+    height: 500px;
+}
+
+
+.home-left button {
+    background-color: #FFA033;
+    color: black;
+    margin-top: 10px;
+    box-shadow: 3px 4px 3px gray;
+    transition: 0.3s all ease-in;
+    -webkit-transition: 0.3s all ease-in;
+    -moz-transition: 0.3s all ease-in;
+    -ms-transition: 0.3s all ease-in;
+    -o-transition: 0.3s all ease-in;
+}
+
+.home-left button:hover {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
+
+.button:focus,
+.button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.home-left button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#social-section {
+    display: flex;
+    padding: 0px;
+}
+
+#social-section p {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////// portfolio /////////////////////////////////////// */
+
+
+#photos {
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#photos img {
+    width: 2500px;
+    height: 300px;
+    background-size: cover;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#photos img:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+
+}
+
+#projects {
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#project-1 {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#projects .home-right {
+    overflow: hidden;
+}
+
+#projects img {
+    border-radius: 20px;
+    -webkit-transition: 0.8s all ease;
+    -o-transition: 0.8s all ease;
+    transition: 0.8s all ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#projects img:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////// footer /////////////////////////////////////// */
+
+
+footer {
+    margin-top: 50px;
+    background-image: linear-gradient(135deg, #02aab0, #00cdac);
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0px;
+}
+
+#copy-right {
+    color: white;
+    font-size: 18px;
+}
+
+ul.social-list li a {
+    margin-right: 5px;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+
+ul.social-list li a:hover {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+
+ul.social-list li:nth-child(1) a:hover {
+    background-color: #3333;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(2) a:hover {
+    background-color: #333;
+    border-color: transparent;
+}
+
+
+ul.social-list li:nth-child(3) a:hover {
+    background-color: #dd4b39;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(4) a:hover {
+    background-color: #1DA1F3;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(5) a:hover {
+    background-color: #0077B7;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(6) a:hover {
+    background-color: #E7002A;
+    border-color: transparent;
+}
