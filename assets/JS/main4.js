@@ -27,30 +27,30 @@ window.addEventListener("click", outsideClick); //event listener for window obje
 
 // Opening modal if the modalBtn is clicked
 function openModal() {
-    let name = nameValue.value; //saving the value of name field from the nameValue variable that we saved previously
-    let phone = numValue.value; //saving the value of phone field from the numValue variable that we saved previously
-    let mail = mailValue.value; //saving the value of mail field from the mailValue variable that we saved previously
-    let msg = msgValue.value; //saving the value of message field from the msgValue variable that we saved previously
+  let name = nameValue.value; //saving the value of name field from the nameValue variable that we saved previously
+  let phone = numValue.value; //saving the value of phone field from the numValue variable that we saved previously
+  let mail = mailValue.value; //saving the value of mail field from the mailValue variable that we saved previously
+  let msg = msgValue.value; //saving the value of message field from the msgValue variable that we saved previously
 
-    if (name == "" || phone == "" || mail == "" || msg == "") {
-        //checking if any of the form fields are empty or not
-        modal2.style.display = "block"; // if any of these field remain empty we show the second modal which displays error message
-    } else {
-        modal.style.display = "block"; // if all the fields are filled then we display the first modal modal which displays sent  message
-        document.getElementById("myForm").reset(); // resetting the form fields
-    }
+  if (name == "" || phone == "" || mail == "" || msg == "") {
+    //checking if any of the form fields are empty or not
+    modal2.style.display = "block"; // if any of these field remain empty we show the second modal which displays error message
+  } else {
+    modal.style.display = "block"; // if all the fields are filled then we display the first modal modal which displays sent  message
+    document.getElementById("myForm").reset(); // resetting the form fields
+  }
 }
 
 // Closing modal if the closeBtn or closeBtn2 is clicked
 function closeModal() {
-    modal.style.display = "none"; //closing the first modal if close button is clicked
-    modal2.style.display = "none"; //closing the 2nd  modal if close button is clicked
+  modal.style.display = "none"; //closing the first modal if close button is clicked
+  modal2.style.display = "none"; //closing the 2nd  modal if close button is clicked
 }
 
 //Closing modal if clicked  Outside Click (on window)
 function outsideClick(e) {
-    if (e.target == modal || e.target == modal2) {
-        modal.style.display = "none";
-        modal2.style.display = "none";
-    }
+  if (e.target == modal || e.target == modal2) {
+    modal.style.display = "none";
+    modal2.style.display = "none";
+  }
 }
