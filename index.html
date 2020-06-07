@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rezaul H Reza- Landing Page</title>
 
-    <!-- Bootstrap CDN -->
+    <!-- Bootstrap CDN css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <!-- Google fonts -->
+    <!-- Google fonts linked -->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
-    <!-- font awesome -->
+    <!-- font awesome script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
         integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
 
-    <!-- Favicon -->
+    <!-- Favicon for the webpages  -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
@@ -38,6 +38,7 @@
     <header>
         <section id="nav-bg">
             <div class="container">
+                <!--title on the navigation bar-->
                 <nav class="navbar navbar-expand-lg navbar-light" id="navbar-example">
                     <a class="navbar-brand" href="#">
                         <h4>REZAUL H REZA </h4>
@@ -50,17 +51,22 @@
                         <span> </span>
 
                     </button>
+                    <!--navbar options-->
                     <div class="collapse navbar-collapse " id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item mx-2">
+                                <!--Home page link. Using a span class to reflect active page which is linked to the active class-->
                                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
+                            <!--portfolio link-->
                             <li class="nav-item mx-2">
                                 <a class="nav-link" href="pages/portfolio.html">Portfolio</a>
                             </li>
+                            <!--cv link-->
                             <li class="nav-item mx-2">
                                 <a class="nav-link" href="pages/cv.html">CV</a>
                             </li>
+                            <!--contact link-->
                             <li class="nav-item mx-2">
                                 <a class="nav-link" href="pages/contact.html">Contact</a>
                             </li>
@@ -74,59 +80,75 @@
 
 
 
-    <!-- Home page -->
+    <!-- Landing page -->
+    <!--using section id to make work easier-->
     <section id="home">
         <div class="container">
             <div class="row" id="section-outer">
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class="home-left">
-                        <h2 class="animate-text">Hi, my name is <span class="name-highlight"> Reza </span> </h2>
-                        <h4>I'm the developer you need</h4>
-                        <button class="btn btn-lg button "> <a href="#">Know more</a><i class="fas fa-arrow-right"></i>
+
+                        <!--name-highlight class is to highlight the last name-->
+                        <h2 class="animate-text">Rezaul H <span class="name-highlight"> Reza </span> </h2>
+                        <h4>The developer you are looking for</h4>
+                        <!--link to the cv page for the visitor, recruiters to know more using font awesome icon-->
+                        <button class="btn btn-lg button "> <a href="pages/cv.html">Know more</a> <i
+                                class="fas fa-arrow-right"></i>
                         </button>
                     </div>
                 </div>
+                <!--landing page image. image is on the right hand side.-->
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class="home-right">
-                        <img src="./assets/images/image1.png" alt="Rezaul Haque Reza" class="img-fluid w-75 mt-5 ml-4">
+                        <img src="./assets/images/image1.png" alt="Rezaul Hoque Reza" class="img-fluid w-75 mt-5 ml-4">
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
-    <!-- Home page ends -->
+    <!-- Landing page ends here -->
 
 
 
-    <!-- Footer -->
+    <!-- Footer goes here -->
     <footer>
         <div class="container-fluid">
             <div class="row pt-4 pb-2">
+                <!--footer- left hand side-->
                 <div class="col-md-6 d-flex justify-content-center align-items-center ">
-
+                    <!--links to all social network goes here-->
                     <div class="row " id="social-section">
                         <div class="col-md-12">
                             <p class="text-center">Get in touch!</p>
                         </div>
                         <div class="col-md-12">
                             <ul class="social-list">
-                                <li> <a href="#"> <i class="fab fa-codepen"></i> </a> </li>
-                                <li> <a href="#"> <i class="fab fa-github"> </i> </a> </li>
-                                <li> <a href="#"> <i class="fab fa-google-plus-g"> </i> </a> </li>
-                                <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
-                                <li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a> </li>
-                                <li> <a href="#"> <i class="fab fa-instagram"></i></a> </li>
+                                <!--codepen link-->
+                                <li> <a href="https://www.codepen.io/rezaulhreza"> <i class="fab fa-codepen"></i> </a>
+                                </li>
+                                <!---github link-->
+                                <li> <a href="https://www.github.com/rezaulhreza"> <i class="fab fa-github"> </i> </a>
+                                </li>
+                                <!--twitter profile-->
+                                <li> <a href="https://www.twitter.com/rezaulhreza"> <i class="fab fa-twitter"></i> </a>
+                                </li>
+                                <!--LinkedIn profile-->
+                                <li> <a href="https://www.linkedin.com/in/rezaul-hoque-reza-596b0b195/"> <i
+                                            class="fab fa-linkedin-in"></i> </a> </li>
+                                <!--instagram profile-->
+                                <li> <a href="instagram.com/rezaulhreza"> <i class="fab fa-instagram"></i></a> </li>
                             </ul>
                         </div>
 
                     </div>
                 </div>
+                <!--footer right hand side-->
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class="row" id="copy-right">
                         <div class="col-md-12">
-                            <p class="text-center">All right reserved</p>
-                            <p class="text-center">Rezaul Haque Reza &copy; 2020 </p>
+                            <p class="text-center">All rights reserved</p>
+                            <p class="text-center">Rezaul Hoque Reza &copy; 2020 </p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +160,7 @@
 
 
 
-    <!-- Bootstrap cdn -->
+    <!-- Bootstrap cdn  js-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -148,7 +170,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-
+    <!--javascript for landing page-->
     <script src="assets/JS/main1.js"></script>
 </body>
 
