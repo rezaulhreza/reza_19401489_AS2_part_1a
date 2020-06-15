@@ -668,10 +668,13 @@ id skill-animation for skill item where single transition will take place.
   -ms-transition: 0.3s all ease-in;
   -o-transition: 0.3s all ease-in;
   box-shadow: 2px 2px 10px grey;
+  /*box shadow stays grey always*/
 }
 
+/* items inside the reference section after placing mouse */
 .reference_inner:hover {
   transform: translateY(-10px);
+  /*will go 10px upwards*/
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
@@ -680,12 +683,13 @@ id skill-animation for skill item where single transition will take place.
 
 /* ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// contact /////////////////////////////////////// */
-
+/*id for contact me page*/
 #contact {
   padding: 80px 20px;
   background-color: lightgray;
 }
 
+/*for the items inside the contact card*/
 .contact-inner {
   padding-bottom: 60px;
   border-radius: 15px;
