@@ -1,5 +1,6 @@
 /* ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////// Generic CSS  //////////////////////////////////// */
+/* font family for h1 h2 h3 h4 */
 h1,
 h2,
 h3,
@@ -7,31 +8,40 @@ h4 {
   font-family: "Raleway", sans-serif;
 }
 
+/* active class for active page, for highlighting purpose*/
 .active {
   color: #00cdac !important;
   font-size: 18px;
 }
 
+/*body margin and padding, and font family*/
 body {
   margin: 0;
   padding: 0;
   font-family: "Baloo Paaji 2", cursive;
 }
 
+/*name-highlight class to highlight selected text*/
 .name-highlight {
   color: #ffa033;
   font-size: 40px;
 }
 
+/*name-highlight2  class to highlight selected text*/
 .name-highlight2 {
   color: #00cdac;
   font-size: 32px;
 }
 
+/* text-alignment in center for heading class**/
 .heading {
   text-align: center;
 }
 
+/*to underline selected text this is the class.
+width and height are selected as 80:3 
+border radius is also set for design.
+*/
 .underline {
   width: 80px;
   height: 3px;
@@ -45,6 +55,11 @@ body {
   -o-border-radius: 20px;
 }
 
+/*button class for the buttons in portfolio page on visit now option
+*border-radius is set to 10px for a round shape in the corner
+*all text are uppercase
+*transition is set to all and for .5s
+*/
 .btn-general {
   font-family: "Raleway", sans-serif;
   border-radius: 10px;
@@ -62,12 +77,16 @@ body {
   -o-transition: all 0.5s;
 }
 
+/*button for portfolio page visit now option to set the color and font size
+and the border is 2 px solid
+*/
 .btn-portfolio {
   color: #02b0af;
   font-size: 16px;
   border: 2px solid #02b0af;
 }
 
+/*upon mouse hovering the background color will change and text color will change to white and focus will be active*/
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   background-color: #02b0af;
@@ -83,16 +102,18 @@ body {
 
 /* ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////// Navigation  //////////////////////////////////// */
-
+/*id selction for navigation bar*/
 #nav-bg {
   background-color: whitesmoke;
 }
 
+/*while toggling the navigation bar this class will be active */
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: 0;
 }
 
+/* toggling nav  bar where span is used. for burger menu , in smaller screen*/
 .navbar-toggler span {
   display: block;
   background-color: #444;
@@ -106,9 +127,10 @@ body {
   transform: rotate(0deg);
   position: relative;
   left: 0;
-  opacity: 1;
+
 }
 
+/*for hamburger menu*/
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
   -webkit-transition: transform 0.35s ease-in-out;
@@ -117,6 +139,7 @@ body {
   transition: transform 0.35s ease-in-out;
 }
 
+/*element class for nav bar when not collapsed*/
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
   top: 10px;
   -webkit-transform: rotate(135deg);
@@ -141,6 +164,7 @@ body {
   opacity: 0.9;
 }
 
+/*hamburger color and background color also the border color*/
 .navbar-toggler span {
   background-color: #ffa033;
 }
@@ -152,7 +176,7 @@ body {
 
 /* ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// Home /////////////////////////////////////// */
-
+/*id home*/
 #home {
   display: flex;
   align-items: center;
@@ -161,6 +185,9 @@ body {
   height: 500px;
 }
 
+/*landing page left button
+margin box shadow color transition for animation is set
+*/
 .home-left button {
   background-color: #ffa033;
   color: black;
@@ -173,6 +200,7 @@ body {
   -o-transition: 0.3s all ease-in;
 }
 
+/*on mouse hovering button will move 10px on x axis */
 .home-left button:hover {
   transform: translateX(10px);
   -webkit-transform: translateX(10px);
@@ -181,22 +209,26 @@ body {
   -o-transform: translateX(10px);
 }
 
+/* when button is clicked no outline and box shadow */
 .button:focus,
 .button:active {
   outline: none !important;
   box-shadow: none !important;
 }
 
+/*link color for landing page button*/
 .home-left button a {
   text-decoration: none;
   color: black;
 }
 
+/* social links area, flex view. padding is set to 0*/
 #social-section {
   display: flex;
   padding: 0px;
 }
 
+/*social section paragraph color, like get in touch texts*/
 #social-section p {
   color: white;
   font-size: 20px;
@@ -204,12 +236,13 @@ body {
 
 /* ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// portfolio /////////////////////////////////////// */
-
+/*id for what i do heading*/
 #what-i-do {
   margin: 40px 20px;
   padding: 30px 20px;
 }
 
+/*portfolio page navigation area to fit that in page*/
 .portfolio-bg {
   margin-top: -16px;
 }
@@ -218,11 +251,15 @@ body {
   margin-bottom: -16px;
 }
 
+/*for my photography area
+margin and padding is set
+*/
 #photos {
   margin-top: 50px;
   padding-top: 20px;
 }
 
+/*to resize the image of photography area*/
 #photos img {
   width: 2500px;
   height: 300px;
@@ -238,6 +275,7 @@ body {
   -o-border-radius: 10px;
 }
 
+/*upin mouse placing, box shadpw will change into black all selected areas*/
 #photos img:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
@@ -249,21 +287,27 @@ body {
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
+/*for project section , this is the id*/
 #projects {
   margin-top: 50px;
   margin-bottom: 40px;
   padding-top: 20px;
 }
 
+/*all items selected with id project-1 , will have top and bottom margin 100px*/
 #project-1 {
   margin-bottom: 100px;
   margin-top: 100px;
 }
 
+/* on project right hand side*/
 #projects .home-right {
   overflow: hidden;
 }
 
+/* applies to all images on projects area*/
+/* border-radius is set to 20px for round shape*/
+/* transition for animation on the photos*/
 #projects img {
   border-radius: 20px;
   -webkit-transition: 0.8s all ease;
@@ -275,6 +319,8 @@ body {
   -o-border-radius: 20px;
 }
 
+/*hover for img projects */
+/*two dimensional transform with scale of 1.5*/
 #projects img:hover {
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
@@ -290,7 +336,13 @@ body {
 
 /* ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// CV /////////////////////////////////////// */
-
+/*id for cv page*/
+/*flex view
+all items aligned at center
+background image is from linear gradient by setting the color.
+clipping path for the background
+clip path i have developed it from assignment 1.
+*/
 #CV {
   /* margin-top: 80px; */
   display: flex;
@@ -300,10 +352,12 @@ body {
   height: 600px;
   position: relative;
   background-image: linear-gradient(135deg, #02aab0, #00cdac);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 80% 0, 100% 80%, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
+/*id class for cv image*/
+/*all four properties of border radius is set to 50%*/
 #CV img {
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -312,6 +366,8 @@ body {
   -o-border-radius: 50%;
 }
 
+/*cv descriptions paragraph class
+which is on the right hand side at the top of the photo,*/
 #description p {
   color: #02b0af;
   font-size: 20px;
@@ -323,6 +379,10 @@ body {
   -o-transition: 0.3s all ease-in;
 }
 
+/*this is used in the top card right next to photo.
+* Background color is set to wgite with the whole thing goes on right as 
+border-radius is set and all of its  4 properties are also set.
+inset box shadow with 3 px x axis 3 px y axis and 4 px z axis black shadow.*/
 #description {
   background-color: white;
   padding: 20px 60px;
@@ -334,6 +394,7 @@ body {
   box-shadow: inset 3px 3px 4px black;
 }
 
+/* hover and mouse focus option for the card containing contact info on cv page*/
 #description p:hover,
 #description p:focus {
   transform: translateX(10px);
@@ -343,11 +404,14 @@ body {
   -o-transform: translateX(10px);
 }
 
+/* when screen width is max 600px
+on cv page there will not be any clip-path*/
 @media only screen and (max-width: 600px) {
   #CV {
     clip-path: none;
   }
 
+  /*email icon when screen is maximum 600px*/
   #description .fa-envelope {
     margin-right: 0px !important;
     margin-left: -30px;
@@ -360,10 +424,13 @@ body {
   padding: 40px 20px;
 }
 
+/*this is for the card for education info*/
 .edu-bg {
   margin: 20px;
+  /*margin and padding set to 20px*/
   padding: 20px;
   min-height: 250px;
+  /*min height is 250px*/
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -373,19 +440,24 @@ body {
   color: white;
   font-size: 18px;
   background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  /*linear gradient background for the card.*/
   box-shadow: 5px 5px 10px gray;
+  /*always a great shadow*/
   transition: all 0.5s all ease-in-out;
+  /*card animation*/
   -webkit-transition: all 0.5s all ease-in-out;
   -moz-transition: all 0.5s all ease-in-out;
   -ms-transition: all 0.5s all ease-in-out;
   -o-transition: all 0.5s all ease-in-out;
 }
 
+/*education card middle part*/
 .edu-bg-middle {
   margin: 20px;
   padding: 20px;
   min-height: 250px;
   border-radius: 15px;
+  /*all 4 properties are set for the outer border edege*/
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -394,20 +466,25 @@ body {
   color: black;
   font-size: 20px;
   background-image: linear-gradient(to right, #ffa033, #ffcf19);
+  /*towards right first one then the 2bd one wil be visible*/
   box-shadow: 5px 5px 10px gray;
 }
 
+/*for the animation of the education cards*/
 .animation {
   transition: 0.4s all ease-in-out;
+  /*.4s long all ease in out transition set*/
   -webkit-transition: 0.4s all ease-in-out;
   -moz-transition: 0.4s all ease-in-out;
   -ms-transition: 0.4s all ease-in-out;
   -o-transition: 0.4s all ease-in-out;
 }
 
+/*mouse hovering and to focus the card*/
 .animation:hover,
 .animation:focus {
   transform: scale(1.05);
+  /*two dimensional transformation property*/
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
@@ -419,36 +496,42 @@ body {
 /* #skills-bg {
     background-color: white;
 } */
-
+/*padding adn margin set for skills using id skills*/
 #skills {
   padding-top: 80px;
   padding-bottom: 40px;
 }
 
+/*for the skills item*/
 .skill-item {
   margin: 20px 20px;
   padding: 70px 30px;
   background-color: #02aab0;
   border-radius: 10px;
+  /*outer border edge radius set for a round shape corner*/
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   box-shadow: 10px 10px 5px gray;
+  /*3 dimensional box shadow*/
 }
 
+/*skill card heading, h5 margin padding and font size set*/
 .skill-item h5 {
   margin: 0px 0px 10px 0px;
   padding: 10px;
   font-size: 42px;
 }
 
+/*skill card heading, h3 margin padding and font size set*/
 .skill-item h3 {
   font-size: 24px;
   margin-bottom: 10px;
   color: ghostwhite;
 }
 
+/*after every skill heading one underline*/
 .skill-item hr {
   width: 25%;
   height: 2px;
@@ -456,22 +539,26 @@ body {
   margin: o auto;
   border: none;
   transition: all 0.5s;
+  /*single transition for the underline*/
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
 
+/*paragraph text class for skill card*/
 .skill-item p {
   margin-top: 20px;
   color: white;
 }
 
+/*when mouse is placed, background color will change adn box shadow will be as it is*/
 .skill-item:hover {
   background-color: #00cdac;
   /* box-shadow: 5px 5px 3px gray; */
 }
 
+/*for the animation of items contained in skill item class and the h5 heading*/
 .skill-item,
 .skill-item h5 {
   transition: all 0.5s;
