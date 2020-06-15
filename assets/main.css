@@ -692,35 +692,45 @@ id skill-animation for skill item where single transition will take place.
 /*for the items inside the contact card*/
 .contact-inner {
   padding-bottom: 60px;
+  /*60px padding top bottom left right*/
   border-radius: 15px;
+  /*15 px outer border edge*/
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   background-color: white;
+  /*card color is white*/
   box-shadow: 0px 0px 10px gray;
+  /*10px shadow on z axis*/
 }
 
+/*for input field border*/
 .contact-inner input {
   background: transparent;
   border: 1px solid #ffcf19;
 }
 
+/*after placing mouse on the input field*/
 .contact-inner input:hover,
 .contact-inner input:focus {
   background: transparent;
   border: 1px solid #00cdac;
+  /*border color changes*/
 }
 
+/*for the icon on the top the handshake one*/
 .contact-inner h6 {
   color: #00cdac;
   transition: 0.3s all ease-in-out;
+  /*transition duration and effects*/
   -webkit-transition: 0.3s all ease-in-out;
   -moz-transition: 0.3s all ease-in-out;
   -ms-transition: 0.3s all ease-in-out;
   -o-transition: 0.3s all ease-in-out;
 }
 
+/* upon mouse hovering icon goes upwards*/
 .contact-inner:hover h6 {
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
@@ -733,100 +743,119 @@ id skill-animation for skill item where single transition will take place.
   background-color: #00cdac !important;
 }
 
+/*for contact send button */
 .btn-block {
   background-color: #ffa033 !important;
   transition: 0.3s all ease-in;
+  /*0.3s transition with all ease in effect*/
   -webkit-transition: 0.3s all ease-in;
   -moz-transition: 0.3s all ease-in;
   -ms-transition: 0.3s all ease-in;
   -o-transition: 0.3s all ease-in;
 }
 
+/*after placing the mouse on the button*/
 .btn-block:hover {
   background-color: #00cdac !important;
+  /*color changes smoothly reflecting importance*/
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// footer /////////////////////////////////////// */
-
+/*class for footer*/
 footer {
   margin-top: 50px;
+  /*margin top 50px */
   background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  /*background color using linear gradient to bring two colors.*/
+
 }
 
+/*social links and icons*/
 .social-list {
   display: flex;
+  /*flex view*/
   justify-content: space-between;
+  /*equal space between the content(icon)*/
   padding-left: 0px;
 }
 
+/*social icon list view inline block*/
 ul.social-list li {
   display: inline-block;
   padding: 0px;
 }
 
+/*id for the footer copyright*/
 #copy-right {
   color: white;
   font-size: 18px;
 }
 
+/*social links class*/
 ul.social-list li a {
   margin-right: 5px;
   justify-content: space-between;
+  /*equal space between contents*/
   text-align: center;
   display: inline-block;
+  /*block display inline*/
   border: 1px solid white;
   width: 35px;
   height: 35px;
   line-height: 35px;
   color: white;
   border-radius: 50%;
+  /*radius of the border is 50% for circle shape*/
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   transition: all 300ms linear;
+  /*transition will take place in 300ms*/
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
   -ms-transition: all 300ms linear;
   -o-transition: all 300ms linear;
 }
 
+/*after placing the mouse*/
 ul.social-list li a:hover {
   transform: translateY(-5px);
+  /*will go upward 5px*/
   -webkit-transform: translateY(-5px);
   -moz-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
   -o-transform: translateY(-5px);
 }
 
+/*first icon*/
 ul.social-list li:nth-child(1) a:hover {
   background-color: black;
   border-color: transparent;
 }
 
+/*second icon*/
 ul.social-list li:nth-child(2) a:hover {
   background-color: #333;
   border-color: transparent;
 }
 
+/*3rd icon*/
 ul.social-list li:nth-child(3) a:hover {
   background-color: #dd4b39;
   border-color: transparent;
 }
 
+/*4th icon*/
 ul.social-list li:nth-child(4) a:hover {
   background-color: #1da1f3;
   border-color: transparent;
 }
 
+/*5th time*/
 ul.social-list li:nth-child(5) a:hover {
   background-color: #0077b7;
-  border-color: transparent;
-}
-
-ul.social-list li:nth-child(6) a:hover {
-  background-color: #e7002a;
   border-color: transparent;
 }
 
@@ -834,10 +863,12 @@ ul.social-list li:nth-child(6) a:hover {
 ///////////////////////////////////// Modal /////////////////////////////////////// */
 
 /* ////////Modal 1 //////////// */
-
+/*class for modal window*/
 .modal {
   display: none;
+  /*nothing is displayed normally*/
   position: fixed;
+  /*postion is fixed*/
   z-index: 1;
   left: 0;
   top: 0;
@@ -845,19 +876,26 @@ ul.social-list li:nth-child(6) a:hover {
   width: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
+  /*background color for the modal*/
 }
 
+/*modal content class*/
 .modal-content {
   margin: 10% auto;
+  /*10% on the left rest auto*/
   width: 60%;
-  border-radius: 20px;
+
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  /*mpodal box shadow*/
+  border-radius: 20px;
+  /* border radius of modal is 20px*/
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
 
+/*modal header class*/
 .modal-header {
   padding: 15px;
   color: black;
@@ -866,6 +904,7 @@ ul.social-list li:nth-child(6) a:hover {
   background-color: #01bcae;
 }
 
+/*modal body background*/
 .modal-body {
   padding: 10px 20px;
   background: #fff;
@@ -873,12 +912,15 @@ ul.social-list li:nth-child(6) a:hover {
   border-bottom-right-radius: 20px;
 }
 
+/*cross button for modal*/
 #close-btn {
   color: white;
   float: right;
+  /*will be on the right*/
   font-size: 30px;
 }
 
+/*close button after mouse clicking*/
 #close-btn:hover,
 #close-btn:focus {
   color: #000;
@@ -887,10 +929,12 @@ ul.social-list li:nth-child(6) a:hover {
 }
 
 /* ///////////// modal 2 /////////////// */
-
+/*second modal*/
 .modal2 {
   display: none;
+  /*nothing is displayed unless clicked*/
   position: fixed;
+  /*postion is fixed*/
   z-index: 1;
   left: 0;
   top: 0;
@@ -898,12 +942,17 @@ ul.social-list li:nth-child(6) a:hover {
   width: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
+  /*modal background*/
 }
 
+/*2nd modal content*/
 .modal-content {
   margin: 10% auto;
+  /*same as modal 1*/
   width: 60%;
   border-radius: 20px;
+  /*same as modal 1*/
+  /*box shdaow for the modal*/
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -911,6 +960,7 @@ ul.social-list li:nth-child(6) a:hover {
   -o-border-radius: 20px;
 }
 
+/*modal header for 2nd modal*/
 .modal-header {
   padding: 15px;
   color: black;
@@ -918,10 +968,12 @@ ul.social-list li:nth-child(6) a:hover {
   border-top-right-radius: 20px;
 }
 
+/*warning sign class for unsuccessful submission*/
 .danger {
   background-color: #e7002a;
 }
 
+/*2nd modal body*/
 .modal-body {
   padding: 10px 20px;
   background: #fff;
@@ -929,12 +981,14 @@ ul.social-list li:nth-child(6) a:hover {
   border-bottom-right-radius: 20px;
 }
 
+/*close btn for modal 2*/
 #close-btn2 {
   color: white;
   float: right;
   font-size: 30px;
 }
 
+/*after mouse clicking*/
 #close-btn2:hover,
 #close-btn2:focus {
   color: #000;
@@ -944,50 +998,59 @@ ul.social-list li:nth-child(6) a:hover {
 
 /* ///////////////////////////////////////////////////////////////////////////////////
 ///////////////////////// Home page text animation //////////////////////////////// */
-
+/*this are related to javascript when page is loaded*/
 #home span {
   color: #ffa033;
   transition: 1s all ease-in;
 }
 
+/*fadeIT demonstrated in javascript*/
 #home span.fadeIT {
   color: #00cdac;
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////// text reval animation  //////////////////////////////// */
-
+/*for portfolio page using javascript to demonstrate this*/
+/*scrolling effect*/
 .intro-text {
   opacity: 0;
   transform: translateX(-30px);
+  /* minus 30px upwards*/
   -webkit-transform: translateX(-30px);
   -moz-transform: translateX(-30px);
   -ms-transform: translateX(-30px);
   -o-transform: translateX(-30px);
   transition: 1.2s all ease-in-out;
+  /*1.2s transition time*/
   -webkit-transition: 1.2s all ease-in-out;
   -moz-transition: 1.2s all ease-in-out;
   -ms-transition: 1.2s all ease-in-out;
   -o-transition: 1.2s all ease-in-out;
 }
 
+/*for scrolling effect*/
 .intro-text2 {
   opacity: 0;
   transform: translateX(30px);
+  /*30px movement on the side after scrolling*/
   -webkit-transform: translateX(30px);
   -moz-transform: translateX(30px);
   -ms-transform: translateX(30px);
   -o-transform: translateX(30px);
   transition: 1.2s all ease-in-out;
+  /*1.2s transition duration with effects*/
   -webkit-transition: 1.2s all ease-in-out;
   -moz-transition: 1.2s all ease-in-out;
   -ms-transition: 1.2s all ease-in-out;
   -o-transition: 1.2s all ease-in-out;
 }
 
+/*when it will appear this class active, using javascript*/
 .intro-appear {
   opacity: 1;
   transform: translateX(0px);
+  /* 0 px on x axis*/
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
