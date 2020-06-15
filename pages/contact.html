@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>It's REZA </title>
+    <title>Contact</title>
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -13,20 +13,20 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <!-- Google fonts -->
+    <!-- Google webfonts api -->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2:400,700&display=swap" rel="stylesheet">
 
-    <!-- font awesome -->
+    <!-- font awesome script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
         integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
 
-    <!-- Favicon -->
+    <!-- Favicon for the webpages -->
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="../assets/favicon_io/site.webmanifest">
 
-    <!-- Style sheet -->
+    <!-- my Style sheet -->
     <link rel="stylesheet" href="../assets/main.css">
 
 </head>
@@ -34,12 +34,17 @@
 <body>
     <!-- Navigation Bar Starts -->
     <header>
+        <!--bootstrap navigation bar class-->
         <section id="nav-bg">
             <div class="container">
+                <!--#title for navigation
+                    #bootstrap class for brand logo/title with the id navbar-expand
+                -->
                 <nav class="navbar navbar-expand-lg navbar-light" id="navbar-example">
                     <a class="navbar-brand" href="#">
                         <h4>REZAUL H REZA </h4>
                     </a>
+
                     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
                         data-target="#navbarNav" aria-controls="navbarNav " aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -48,17 +53,22 @@
                         <span> </span>
 
                     </button>
+                    <!--navigation bar links-->
                     <div class="collapse navbar-collapse " id="navbarNav">
                         <ul class="navbar-nav ml-auto">
+                            <!--link for landing page-->
                             <li class="nav-item mx-2">
                                 <a class="nav-link " href="../index.html">Home </a>
                             </li>
+                            <!--link to portfolio page-->
                             <li class="nav-item mx-2 ">
                                 <a class="nav-link " href="portfolio.html">Portfolio </a>
                             </li>
+                            <!--link for cv page-->
                             <li class="nav-item mx-2">
                                 <a class="nav-link " href="cv.html">CV</a>
                             </li>
+                            <!--link for contact page(current page) with class active which will highlight the link-->
                             <li class="nav-item mx-2">
                                 <a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span> </a>
                             </li>
@@ -68,73 +78,98 @@
             </div>
         </section>
     </header>
-    <!-- Navigation Bar Ends -->
+    <!-- Navigation Bar Ends here -->
 
-    <!-- Contact Starts -->
-
+    <!-- Contact me section Starts -->
+    <!--section id contact to work on contact area in my stylesheet-->
     <section id="contact">
+        <!--heading for contact card-->
         <div class="heading">
             <h2>Contact Me For Business Enquiries</h2>
+            <!--for the underline of heading, bootstrap class-->
             <div class="underline"></div>
         </div>
+        <!--container class for contact card-->
         <div class="container">
+            <!--for contact-outer area-->
             <div class="row" id="contact-outer">
+                <!--bootstrap class, using flex layout, justify and align items center for placing them on center-->
                 <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <!--for inner contact area-->
                     <div class="contact-inner px-5">
+                        <!--contact icon and text to align at center, bootstrap class-->
                         <div class="contact-icon text-center py-5">
+                            <!--font awesome icon for handshake-->
                             <h6><i class="far fa-handshake fa-4x"></i></h6>
                         </div>
-                        <marquee class="mb-2 p-1 text-danger border border-warning rounded">N.B. All the fields are
-                            required</marquee>
+                        <!--warning to fill all the fields, i was going to use marquee here, but not sure about the validation.-->
+                        <h6 class="mb-2 p-1 text-danger border border-warning rounded">N.B. All the fields are
+                            required</h6>
+                        <!--form area starts-->
+                        <!--id form for the form area-->
                         <form id="myForm">
+                            <!--form group class for the items in the form-->
                             <div class="form-group ">
+                                <!--input items grouping-->
                                 <div class="input-group ">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text bg-primary text-white">
+                                            <!--icon for name field-->
                                             <i class="fas fa-user"></i>
                                         </span>
                                     </div>
+                                    <!--input area for name-->
                                     <input type="text" class="form-control" id="user-name" placeholder="Name" required>
                                 </div>
                             </div>
-
+                            <!--for phone number field-->
                             <div class="form-group ">
                                 <div class="input-group ">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text bg-primary text-white">
+                                            <!--phone icon-->
                                             <i class="fas fa-phone-alt"></i>
                                         </span>
                                     </div>
+                                    <!--phone number field input-->
                                     <input type="tel" class="form-control" id="user-phone" placeholder="Number"
                                         required>
                                 </div>
                             </div>
-
+                            <!--for email field-->
                             <div class="form-group ">
                                 <div class="input-group ">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text bg-primary text-white">
+                                            <!--envelope icon for email field-->
                                             <i class="fas fa-envelope"></i>
                                         </span>
                                     </div>
+                                    <!--input placeholder for email field-->
                                     <input type="email" class="form-control " placeholder="Email" id="user-mail"
                                         required>
                                 </div>
                             </div>
-
+                            <!--for message area-->
                             <div class="form-group ">
                                 <div class="input-group ">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text bg-primary text-white">
+                                            <!--writing icon for message area.-->
                                             <i class="fas fa-pencil-alt"></i>
                                         </span>
                                     </div>
+                                    <!--input area for message field-->
                                     <input class="form-control" placeholder="message..." id="user-msg" required>
                                 </div>
                             </div>
                             <br>
+                            <!--this is for the modal window after clicking the send button.
+                            #linked with the javascript. When this is clicked, either a successful message will pop up with a modal window or
+                        # an error message will pop up with a modal window-->
                             <input id="modal-btn" type="button" value="send" class="btn  btn-block btn-lg">
                         </form>
+                        <!--form ends here-->
                     </div>
                 </div>
             </div>
@@ -148,16 +183,16 @@
     <!-- Modal one starts -->
     <div id="my-modal" class="modal">
         <div class="modal-content">
+            <!--this modal is for successful approach-->
             <div class="modal-header d-flex justify-content-between px-4 text-white">
                 <h4>Message Sent!</h4>
                 <span id="close-btn">&times;</span>
             </div>
+            <!--this is the modal body area, the message to the user after a successful submission-->
             <div class="modal-body">
                 <h5 class="text-center py-2 text-success">Have any interesting idea? let's meet!</h5>
-                <p> amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit
-                    repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam
-                    nemo
-                    commodi ab.
+                <p> For further inquiries , do not hesitate to <a href="mailto: info@rezaulhreza.co.uk"> email me</a>.
+                    Thanks very much!
                 </p>
             </div>
 
@@ -170,12 +205,17 @@
     <!-- Modal two starts -->
     <div id="my-modal2" class="modal2">
         <div class="modal-content">
+            <!--this modal is for unsuccessful submission-->
             <div class="modal-header danger d-flex justify-content-between px-4 text-white">
                 <h4>Oops sorry!</h4>
                 <span id="close-btn2">&times;</span>
             </div>
             <div class="modal-body">
+                <!--modal body area-->
+                <!--warning message-->
                 <h5 class="text-center py-2 text-danger">Message sent failed!</h5>
+                <!--body message area-->
+                <!--calling options for after hours, interactive-->
                 <p>
                     please check if you filled up all fields and try again. <br>
                     If still you are getting error please contact to your ISP or if urgent you can call me directly<a
@@ -192,49 +232,55 @@
 
 
 
-    <!-- Footer -->
-    <footer class="mt-0">
-        <section>
-            <div class="container-fluid">
-                <div class="row pt-4">
-                    <div class="col-md-6 d-flex justify-content-center align-items-center ">
-
-                        <div class="row " id="social-section">
-                            <div class="col-md-12">
-                                <p class="text-center">Get in touch!</p>
-                            </div>
-                            <div class="col-md-12">
-                                <ul class="social-list">
-                                    <li> <a href="#"> <i class="fab fa-codepen"></i> </a> </li>
-                                    <li> <a href="#"> <i class="fab fa-github"> </i> </a> </li>
-                                    <li> <a href="#"> <i class="fab fa-google-plus-g"> </i> </a> </li>
-                                    <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
-                                    <li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a> </li>
-                                    <li> <a href="#"> <i class="fab fa-instagram"></i></a> </li>
-                                </ul>
-                            </div>
-
+    <!-- Footer goes here -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row pt-4 pb-2">
+                <!--footer- left hand side-->
+                <div class="col-md-6 d-flex justify-content-center align-items-center ">
+                    <!--links to all social network goes here-->
+                    <div class="row " id="social-section">
+                        <div class="col-md-12">
+                            <p class="text-center">Get in touch!</p>
                         </div>
+                        <div class="col-md-12">
+                            <ul class="social-list">
+                                <!--codepen link-->
+                                <li> <a href="https://www.codepen.io/rezaulhreza"> <i class="fab fa-codepen"></i> </a>
+                                </li>
+                                <!---github link-->
+                                <li> <a href="https://www.github.com/rezaulhreza"> <i class="fab fa-github"> </i> </a>
+                                </li>
+                                <!--twitter profile-->
+                                <li> <a href="https://www.twitter.com/rezaulhreza"> <i class="fab fa-twitter"></i> </a>
+                                </li>
+                                <!--LinkedIn profile-->
+                                <li> <a href="https://www.linkedin.com/in/rezaul-hoque-reza-596b0b195/"> <i
+                                            class="fab fa-linkedin-in"></i> </a> </li>
+                                <!--instagram profile-->
+                                <li> <a href="instagram.com/rezaulhreza"> <i class="fab fa-instagram"></i></a> </li>
+                            </ul>
+                        </div>
+
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="row pb-1" id="copy-right">
-                            <div class="col-md-12">
-                                <p class="text-center">All right reserved</p>
-                                <p class="text-center">Rezaul Haque Reza &copy; 2020 </p>
-                            </div>
+                </div>
+                <!--footer right hand side-->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="row" id="copy-right">
+                        <div class="col-md-12">
+                            <p class="text-center">All rights reserved</p>
+                            <p class="text-center">Rezaul Hoque Reza &copy; 2020 </p>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </section>
+        </div>
     </footer>
 
 
 
 
-
-    <!-- Bootstrap cdn -->
+    <!-- Bootstrap cdn js -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -245,7 +291,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 
-    <!-- JS CDN -->
+    <!-- my js for contact page -->
     <script src="../assets/JS/main4.js"></script>
 </body>
 
