@@ -110,9 +110,6 @@ and the border is 2 px solid
   width: 25px;
   margin-top: 4px;
   margin-bottom: 4px;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   transform: rotate(0deg);
   position: relative;
   left: 0;
@@ -174,6 +171,7 @@ margin box shadow color transition for animation is set
   margin-top: 10px;
   box-shadow: 3px 4px 3px gray;
   transition: 0.3s all ease-in;
+
 }
 
 /*on mouse hovering button will move 10px on x axis */
@@ -241,20 +239,10 @@ margin and padding is set
   border: 1px solid #bbb;
   transition: all 0.3s linear;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
-/*upin mouse placing, box shadpw will change into black all selected areas*/
+/*upon mouse placing, box shadpw will change into black all selected areas*/
 #photos img:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
-    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
@@ -292,7 +280,6 @@ margin and padding is set
 #projects img:hover {
   transform: scale(1.5);
   border-radius: 20px;
-
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////
@@ -321,10 +308,6 @@ clip path i have developed it from assignment 1.
 /*all four properties of border radius is set to 50%*/
 #CV img {
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 /*cv descriptions paragraph class
@@ -334,10 +317,6 @@ which is on the right hand side at the top of the photo,*/
   font-size: 20px;
   font-weight: 500;
   transition: 0.3s all ease-in;
-  -webkit-transition: 0.3s all ease-in;
-  -moz-transition: 0.3s all ease-in;
-  -ms-transition: 0.3s all ease-in;
-  -o-transition: 0.3s all ease-in;
 }
 
 /*this is used in the top card right next to photo.
@@ -348,10 +327,6 @@ inset box shadow with 3 px x axis 3 px y axis and 4 px z axis black shadow.*/
   background-color: white;
   padding: 20px 60px;
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   box-shadow: inset 3px 3px 4px black;
 }
 
@@ -359,10 +334,6 @@ inset box shadow with 3 px x axis 3 px y axis and 4 px z axis black shadow.*/
 #description p:hover,
 #description p:focus {
   transform: translateX(10px);
-  -webkit-transform: translateX(10px);
-  -moz-transform: translateX(10px);
-  -ms-transform: translateX(10px);
-  -o-transform: translateX(10px);
 }
 
 /* when screen width is max 600px
@@ -393,10 +364,6 @@ on cv page there will not be any clip-path*/
   min-height: 250px;
   /*min height is 250px*/
   border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
   text-align: center;
   color: white;
   font-size: 18px;
@@ -404,12 +371,8 @@ on cv page there will not be any clip-path*/
   /*linear gradient background for the card.*/
   box-shadow: 5px 5px 10px gray;
   /*always a great shadow*/
-  transition: all 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
   /*card animation*/
-  -webkit-transition: all 0.5s all ease-in-out;
-  -moz-transition: all 0.5s all ease-in-out;
-  -ms-transition: all 0.5s all ease-in-out;
-  -o-transition: all 0.5s all ease-in-out;
 }
 
 /*education card middle part*/
@@ -419,10 +382,6 @@ on cv page there will not be any clip-path*/
   min-height: 250px;
   border-radius: 15px;
   /*all 4 properties are set for the outer border edege*/
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
   text-align: center;
   color: black;
   font-size: 20px;
@@ -435,10 +394,6 @@ on cv page there will not be any clip-path*/
 .animation {
   transition: 0.4s all ease-in-out;
   /*.4s long all ease in out transition set*/
-  -webkit-transition: 0.4s all ease-in-out;
-  -moz-transition: 0.4s all ease-in-out;
-  -ms-transition: 0.4s all ease-in-out;
-  -o-transition: 0.4s all ease-in-out;
 }
 
 /*mouse hovering and to focus the card*/
@@ -446,10 +401,6 @@ on cv page there will not be any clip-path*/
 .animation:focus {
   transform: scale(1.05);
   /*two dimensional transformation property*/
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
 }
 
 /* Skills */
@@ -470,10 +421,6 @@ on cv page there will not be any clip-path*/
   background-color: #02aab0;
   border-radius: 10px;
   /*outer border edge radius set for a round shape corner*/
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   box-shadow: 10px 10px 5px gray;
   /*3 dimensional box shadow*/
 }
@@ -523,10 +470,6 @@ on cv page there will not be any clip-path*/
 .skill-item,
 .skill-item h5 {
   transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
 }
 
 .skill-item:hover hr {
@@ -535,7 +478,7 @@ on cv page there will not be any clip-path*/
 
 /*heading color will change to yellow when mouse is placed.
 content will go upwards this is animation*/
-*/ .skill-item:hover h5 {
+.skill-item:hover h5 {
   color: #ffd016;
   transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
@@ -618,16 +561,8 @@ id skill-animation for skill item where single transition will take place.
   /*background color*/
   border-radius: 20px;
   /*radius of the outer borde edge*/
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
   min-height: 300px;
   transition: 0.3s all ease-in;
-  -webkit-transition: 0.3s all ease-in;
-  -moz-transition: 0.3s all ease-in;
-  -ms-transition: 0.3s all ease-in;
-  -o-transition: 0.3s all ease-in;
   box-shadow: 2px 2px 10px grey;
   /*box shadow stays grey always*/
 }
@@ -636,10 +571,6 @@ id skill-animation for skill item where single transition will take place.
 .reference_inner:hover {
   transform: translateY(-10px);
   /*will go 10px upwards*/
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  -o-transform: translateY(-10px);
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////
@@ -656,10 +587,6 @@ id skill-animation for skill item where single transition will take place.
   /*60px padding top bottom left right*/
   border-radius: 15px;
   /*15 px outer border edge*/
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
   background-color: white;
   /*card color is white*/
   box-shadow: 0px 0px 10px gray;
@@ -685,19 +612,11 @@ id skill-animation for skill item where single transition will take place.
   color: #00cdac;
   transition: 0.3s all ease-in-out;
   /*transition duration and effects*/
-  -webkit-transition: 0.3s all ease-in-out;
-  -moz-transition: 0.3s all ease-in-out;
-  -ms-transition: 0.3s all ease-in-out;
-  -o-transition: 0.3s all ease-in-out;
 }
 
 /* upon mouse hovering icon goes upwards*/
 .contact-inner:hover h6 {
   transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  -o-transform: translateY(-10px);
 }
 
 .bg-primary {
@@ -709,10 +628,6 @@ id skill-animation for skill item where single transition will take place.
   background-color: #ffa033 !important;
   transition: 0.3s all ease-in;
   /*0.3s transition with all ease in effect*/
-  -webkit-transition: 0.3s all ease-in;
-  -moz-transition: 0.3s all ease-in;
-  -ms-transition: 0.3s all ease-in;
-  -o-transition: 0.3s all ease-in;
 }
 
 /*after placing the mouse on the button*/
@@ -768,10 +683,6 @@ ul.social-list li a {
   color: white;
   border-radius: 50%;
   /*radius of the border is 50% for circle shape*/
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   transition: all 300ms linear;
   /*transition will take place in 300ms*/
   -webkit-transition: all 300ms linear;
