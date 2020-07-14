@@ -1,362 +1,356 @@
 <!DOCTYPE html>
 <html>
-<p lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio</title>
 
-        <!-- Bootstrap CDN css -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-            crossorigin="anonymous" />
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-        </script>
+<head>
+    <p lang="en"></p>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
 
-        <!-- Google webfonts api -->
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2:400,700&display=swap" rel="stylesheet" />
+    <!-- Bootstrap CDN css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 
-        <!-- font awesome script-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
-            integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <!-- Google webfonts api -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2:400,700&display=swap" rel="stylesheet" />
 
-        <!-- Favicon for the webpages -->
-        <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon_io/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon_io/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon_io/favicon-16x16.png" />
-        <link rel="manifest" href="../assets/favicon_io/site.webmanifest" />
+    <!-- font awesome script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
 
-        <!-- My Style sheet css custom -->
-        <link rel="stylesheet" href="../assets/main.css" />
-    </head>
+    <!-- Favicon for the webpages -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="../assets/favicon_io/site.webmanifest" />
 
-    <body>
-        <!-- Navigation Bar Starts -->
-        <header>
-            <section id="nav-bg" class="portfolio-bg">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-light" id="navbar-example">
-                        <a class="navbar-brand" href="#">
-                            <h4>REZAUL H REZA</h4>
-                        </a>
-                        <button class="navbar-toggler navbar-toggler-right collapsed" type="button"
-                            data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav "
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span> </span>
-                            <span> </span>
-                            <span> </span>
-                        </button>
-                        <!--NAVBAR OPTIONS-->
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto">
-                                <!--landing page link-->
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="../index.html">Home </a>
+    <!-- My Style sheet css custom -->
+    <link rel="stylesheet" href="../assets/main.css" />
+</head>
+
+<body>
+    <!-- Navigation Bar Starts -->
+    <header>
+        <section id="nav-bg" class="portfolio-bg">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light" id="navbar-example">
+                    <a class="navbar-brand" href="#">
+                        <h4>REZAUL H REZA</h4>
+                    </a>
+                    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarNav" aria-controls="navbarNav " aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                    </button>
+                    <!--NAVBAR OPTIONS-->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <!--landing page link-->
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="../index.html">Home </a>
+                            </li>
+                            <!--portfolio page link. Using the span class to display the active page using the class active-->
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <!--link to the cv page-->
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="cv.html">CV</a>
+                            </li>
+                            <!--linked to contact page-->
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <!-- Navigation Bar Ends -->
+
+    <!-- portfolio page starts -->
+
+    <!-- What i do starts -->
+
+    <section id="what-i-do">
+        <div class="heading">
+            <h2>
+                What <span class="name-highlight">i </span>
+                <span class="name-highlight2">do</span>
+            </h2>
+            <div class="underline"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        I plan, create and code internet sites and web pages! I am also a
+                        java programmer, a python developer. Well, I am a learner by heart
+                        and just a beginner. I am currently working as an web developer.
+                        at Pro Arkitects, based in Kent, England.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- What i do ends -->
+
+    <!-- Projects section starts -->
+    <section id="projects">
+        <div class="heading">
+            <!--projects title-->
+            <!--using the  span and name-highight class to highlights the PRO from the projects-->
+            <h2>My <span class="name-highlight">Pro</span>jects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="container">
+            <!--First project-->
+            <div class="row" id="project-1">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="home-left">
+                        <h2>
+                            Pr<span class="name-highlight">oje</span>ct descripti<span class="name-highlight2">on</span>
+                        </h2>
+                        <br />
+                        <!--about the project-->
+                        <p class="intro-text2">
+                            An weather app created using JavaScript mostly, along with HTML and CSS. It provides
+                            weather information using browser's geolocation. Also, it will display the weather
+                            description as well.
+                        </p>
+                        <!--link to the page-->
+                        <a id="home-btn" class="btn btn-general btn-portfolio mb-4"
+                            href="https://rezaulhreza.github.io/weather-app/" title="visit" role="button">Visit
+                            Now</a>
+                    </div>
+                </div>
+                <!--project image-->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="home-right intro-text2">
+                        <img src="../assets/images/weather.png" alt="Weather app" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <!--first project ends-->
+
+
+            <!--second project starts-->
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <!--description starts-->
+                    <div class="home-left">
+                        <h2>
+                            Pr<span class="name-highlight2">oj</span>ect descriptio<span class="name-highlight">n</span>
+                        </h2>
+                        <br />
+                        <p>
+                            This is a 404 page which is a modified version of Ottis Canvas
+                            Particle Demo. It is created using JavaScript. Particles are
+                            made by doing some mathematical expression. Colors are changed
+                            as well as the movement of the particles are altered.
+                        </p>
+                        <a id="home-btn" class="btn btn-general btn-portfolio mb-4"
+                            href="https://codepen.io/rezaulhreza/full/MWagZEo" title="visit" role="button">Visit
+                            Now</a>
+                    </div>
+                </div>
+                <!--description ends-->
+
+                <!--project image-->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="home-right intro-text2">
+                        <img src="../assets/images/404.png" alt="404 page" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <!--2nd project ends-->
+
+            <!--3rd project starts-->
+            <div class="row" id="project-1">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <!--project description starts-->
+                    <div class="home-left">
+                        <h2>
+                            Pr<span class="name-highlight">oje</span>ct descripti<span class="name-highlight2">on</span>
+                        </h2>
+                        <br />
+                        <!--texts-->
+                        <p class="intro-text">
+                            A ToDo List app using JavaScript. In this app, the users enter
+                            the items that they want to make a list of. It stores the data
+                            in a local storage and also users can remove any items from the
+                            list if they wish to do so.
+                        </p>
+                        <!--link of the project-->
+                        <a id="home-btn" class="btn btn-general btn-portfolio mb-4"
+                            href="https://rezaulhreza.github.io/todolist/" title="visit" role="button">Visit Now</a>
+                    </div>
+                </div>
+                <!--description ends-->
+
+                <!--project image -->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="home-right">
+                        <img src="../assets/images/todo.png" alt="todolist" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+
+            <!--project ends -->
+
+            <!--4th project starts-->
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="home-left">
+                        <!--description-->
+                        <h2>
+                            Pr<span class="name-highlight2">oj</span>ect descriptio<span class="name-highlight">n</span>
+                        </h2>
+                        <br />
+                        <!--about the project-->
+                        <p class="intro-text">
+                            An interactive random quote generator apps using javascript mainly along with css and
+                            html. It loads a new quote every time the page is reloaded. In addition, it gets a new
+                            background image every time the page is loaded. Also, there is an option to tweet the
+                            quotes on twitter by clicking on the twitter button.
+                        </p>
+                        <!--link to the project-->
+                        <a id="home-btn" class="btn btn-general btn-portfolio mb-4"
+                            href="https://rezaulhreza.github.io/random-quote/" title="visit" role="button">Visit
+                            Now</a>
+                    </div>
+                </div>
+                <!--description ends-->
+                <!--project image-->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="home-right intro-text">
+                        <img src="../assets/images/random quote.png" alt="animated login form" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <!--4th project ends-->
+
+    </section>
+    <!-- Projects section ends -->
+
+    <!-- Photography starts -->
+    <section id="photos" class="mb-5 mt-2">
+        <div class="heading">
+            <h2>My Phot<span class="name-highlight">ograp</span>hy</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="../assets/images/tulip.jpg" alt="TULIP   by rezaul h reza" />
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="../assets/images/butterfly.jpg"
+                        alt="butterfly on a flower by Rezaul H Reza" />
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="../assets/images/colorful sunset.jpg" alt="colorful sunset by Reza" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="../assets/images/sunset duck.jpg"
+                        alt="sunset and a duck byv Rezaul H Reza" />
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="../assets/images/new moon.jpg" alt="new moon by Rezaul H Reza" />
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="../assets/images/wasdale.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Photography ends -->
+
+    <!-- portfolio ends -->
+
+    <!-- Footer goes here -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row pt-4 pb-2">
+                <!--footer- left hand side-->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <!--links to all social network goes here-->
+                    <div class="row" id="social-section">
+                        <div class="col-md-12">
+                            <p class="text-center">Get in touch!</p>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="social-list">
+                                <!--codepen link-->
+                                <li>
+                                    <a href="https://www.codepen.io/rezaulhreza">
+                                        <i class="fab fa-codepen"></i>
+                                    </a>
                                 </li>
-                                <!--portfolio page link. Using the span class to display the active page using the class active-->
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link active" href="#">Portfolio <span
-                                            class="sr-only">(current)</span></a>
+                                <!---github link-->
+                                <li>
+                                    <a href="https://www.github.com/rezaulhreza">
+                                        <i class="fab fa-github"> </i>
+                                    </a>
                                 </li>
-                                <!--link to the cv page-->
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="cv.html">CV</a>
+                                <!--twitter profile-->
+                                <li>
+                                    <a href="https://www.twitter.com/rezaulhreza">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
                                 </li>
-                                <!--linked to contact page-->
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                <!--LinkedIn profile-->
+                                <li>
+                                    <a href="https://www.linkedin.com/in/rezaul-hoque-reza-596b0b195/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <!--instagram profile-->
+                                <li>
+                                    <a href="https://www.instagram.com/rezaulhreza">
+                                        <i class="fab fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
-                    </nav>
-                </div>
-            </section>
-        </header>
-        <!-- Navigation Bar Ends -->
-
-        <!-- portfolio page starts -->
-
-        <!-- What i do starts -->
-
-        <section id="what-i-do">
-            <div class="heading">
-                <h2>
-                    What <span class="name-highlight">i </span>
-                    <span class="name-highlight2">do</span>
-                </h2>
-                <div class="underline"></div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>
-                            I plan, create and code internet sites and web pages! I am also a
-                            java programmer, a python developer. Well, I am a learner by heart
-                            and just a beginner. I am currently working as an web developer.
-                            at Pro Arkitects, based in Kent, England.
-                        </p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- What i do ends -->
-
-        <!-- Projects section starts -->
-        <section id="projects">
-            <div class="heading">
-                <!--projects title-->
-                <!--using the  span and name-highight class to highlights the PRO from the projects-->
-                <h2>My <span class="name-highlight">Pro</span>jects</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="container">
-                <!--First project-->
-                <div class="row" id="project-1">
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="home-left">
-                            <h2>
-                                Pr<span class="name-highlight">oje</span>ct descripti<span
-                                    class="name-highlight2">on</span>
-                            </h2>
-                            <br />
-                            <!--about the project-->
-                            <p class="intro-text2">
-                                An weather app created using JavaScript mostly, along with HTML and CSS. It provides
-                                weather information using browser's geolocation. Also, it will display the weather
-                                description as well.
-                            </p>
-                            <!--link to the page-->
-                            <a id="home-btn" class="btn btn-general btn-portfolio mb-4"
-                                href="https://rezaulhreza.github.io/weather-app/" title="visit" role="button">Visit
-                                Now</a>
-                        </div>
-                    </div>
-                    <!--project image-->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="home-right intro-text2">
-                            <img src="../assets/images/weather.png" alt="Weather app" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-                <!--first project ends-->
-
-
-                <!--second project starts-->
-                <div class="row">
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <!--description starts-->
-                        <div class="home-left">
-                            <h2>
-                                Pr<span class="name-highlight2">oj</span>ect descriptio<span
-                                    class="name-highlight">n</span>
-                            </h2>
-                            <br />
-                            <p>
-                                This is a 404 page which is a modified version of Ottis Canvas
-                                Particle Demo. It is created using JavaScript. Particles are
-                                made by doing some mathematical expression. Colors are changed
-                                as well as the movement of the particles are altered.
-                            </p>
-                            <a id="home-btn" class="btn btn-general btn-portfolio mb-4"
-                                href="https://codepen.io/rezaulhreza/full/MWagZEo" title="visit" role="button">Visit
-                                Now</a>
-                        </div>
-                    </div>
-                    <!--description ends-->
-
-                    <!--project image-->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="home-right intro-text2">
-                            <img src="../assets/images/404.png" alt="404 page" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-                <!--2nd project ends-->
-
-                <!--3rd project starts-->
-                <div class="row" id="project-1">
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <!--project description starts-->
-                        <div class="home-left">
-                            <h2>
-                                Pr<span class="name-highlight">oje</span>ct descripti<span
-                                    class="name-highlight2">on</span>
-                            </h2>
-                            <br />
-                            <!--texts-->
-                            <p class="intro-text">
-                                A ToDo List app using JavaScript. In this app, the users enter
-                                the items that they want to make a list of. It stores the data
-                                in a local storage and also users can remove any items from the
-                                list if they wish to do so.
-                            </p>
-                            <!--link of the project-->
-                            <a id="home-btn" class="btn btn-general btn-portfolio mb-4"
-                                href="https://rezaulhreza.github.io/todolist/" title="visit" role="button">Visit Now</a>
-                        </div>
-                    </div>
-                    <!--description ends-->
-
-                    <!--project image -->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="home-right">
-                            <img src="../assets/images/todo.png" alt="todolist" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-
-                <!--project ends -->
-
-                <!--4th project starts-->
-                <div class="row">
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="home-left">
-                            <!--description-->
-                            <h2>
-                                Pr<span class="name-highlight2">oj</span>ect descriptio<span
-                                    class="name-highlight">n</span>
-                            </h2>
-                            <br />
-                            <!--about the project-->
-                            <p class="intro-text">
-                                An interactive random quote generator apps using javascript mainly along with css and
-                                html. It loads a new quote every time the page is reloaded. In addition, it gets a new
-                                background image every time the page is loaded. Also, there is an option to tweet the
-                                quotes on twitter by clicking on the twitter button.
-                            </p>
-                            <!--link to the project-->
-                            <a id="home-btn" class="btn btn-general btn-portfolio mb-4"
-                                href="https://rezaulhreza.github.io/random-quote/" title="visit" role="button">Visit
-                                Now</a>
-                        </div>
-                    </div>
-                    <!--description ends-->
-                    <!--project image-->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="home-right intro-text">
-                            <img src="../assets/images/random quote.png" alt="animated login form" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-                <!--4th project ends-->
-
-        </section>
-        <!-- Projects section ends -->
-
-        <!-- Photography starts -->
-        <section id="photos" class="mb-5 mt-2">
-            <div class="heading">
-                <h2>My Phot<span class="name-highlight">ograp</span>hy</h2>
-                <div class="underline"></div>
-            </div>
-
-            <div class="container">
-                <div class="row mb-2">
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/images/tulip.jpg" alt="TULIP   by rezaul h reza" />
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/images/butterfly.jpg"
-                            alt="butterfly on a flower by Rezaul H Reza" />
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/images/colorful sunset.jpg"
-                            alt="colorful sunset by Reza" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/images/sunset duck.jpg"
-                            alt="sunset and a duck byv Rezaul H Reza" />
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/images/new moon.jpg" alt="new moon by Rezaul H Reza" />
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/images/wasdale.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Photography ends -->
-
-        <!-- portfolio ends -->
-
-        <!-- Footer goes here -->
-        <footer>
-            <div class="container-fluid">
-                <div class="row pt-4 pb-2">
-                    <!--footer- left hand side-->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <!--links to all social network goes here-->
-                        <div class="row" id="social-section">
-                            <div class="col-md-12">
-                                <p class="text-center">Get in touch!</p>
-                            </div>
-                            <div class="col-md-12">
-                                <ul class="social-list">
-                                    <!--codepen link-->
-                                    <li>
-                                        <a href="https://www.codepen.io/rezaulhreza">
-                                            <i class="fab fa-codepen"></i>
-                                        </a>
-                                    </li>
-                                    <!---github link-->
-                                    <li>
-                                        <a href="https://www.github.com/rezaulhreza">
-                                            <i class="fab fa-github"> </i>
-                                        </a>
-                                    </li>
-                                    <!--twitter profile-->
-                                    <li>
-                                        <a href="https://www.twitter.com/rezaulhreza">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <!--LinkedIn profile-->
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/rezaul-hoque-reza-596b0b195/">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                    <!--instagram profile-->
-                                    <li>
-                                        <a href="https://www.instagram.com/rezaulhreza">
-                                            <i class="fab fa-instagram"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--footer right hand side-->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <div class="row" id="copy-right">
-                            <div class="col-md-12">
-                                <p class="text-center">All rights reserved</p>
-                                <p class="text-center">Rezaul Hoque Reza &copy; 2020</p>
-                            </div>
+                <!--footer right hand side-->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="row" id="copy-right">
+                        <div class="col-md-12">
+                            <p class="text-center">All rights reserved</p>
+                            <p class="text-center">Rezaul Hoque Reza &copy; 2020</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <!-- Bootstrap cdn -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-        </script>
+    <!-- Bootstrap cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 
-        <!--js for portfolio -->
-        <script src="../assets/JS/main2.js"></script>
-    </body>
-</p>
+    <!--js for portfolio -->
+    <script src="../assets/JS/main2.js"></script>
+</body>
+
 
 </html>
