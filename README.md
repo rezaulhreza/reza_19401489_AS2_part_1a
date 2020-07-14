@@ -34,4 +34,16 @@ These warnings were unable to solve ar least with the knowledge I have night.
 
 # This is for main.css
 
-# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/mainCss.jpg?raw=true)
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/css-no-error.png?raw=true)
+
+No errors in css
+
+# Warnings for CSS
+
+I did not change them as they will effect on functionality
+
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/cssWarning1.png?raw=true)
+
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/cssWarning2.png?raw=true)
+
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/cssWarning3.png?raw=true)
