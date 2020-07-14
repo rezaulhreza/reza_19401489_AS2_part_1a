@@ -10,4 +10,4 @@
 
 # This is for the index.html
 
-# ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/index.png?raw=true)
