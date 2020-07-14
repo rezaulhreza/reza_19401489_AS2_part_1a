@@ -14,4 +14,6 @@ I tried to fix these errors but I could not do it
 
 # ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/index.png?raw=true)
 
-# This is for the portfolio.html
+# This is for the contact.html
+
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/contact.png?raw=true)
