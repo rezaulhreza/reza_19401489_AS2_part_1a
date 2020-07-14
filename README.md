@@ -19,3 +19,19 @@ I tried to fix these errors but I could not do it
 # ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/contact.jpg?raw=true)
 
 I was unable to solve these errors with the knowledge I have so far.
+
+# This is for cv.html
+
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/cv.jpg?raw=true)
+
+There is no errors to fix.
+
+# This is for the portfolio.html
+
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/portfolio.jpg?raw=true)
+
+These warnings were unable to solve ar least with the knowledge I have night.
+
+# This is for main.css
+
+# ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/mainCss.jpg?raw=true)

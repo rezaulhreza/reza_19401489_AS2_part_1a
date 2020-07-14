@@ -49,10 +49,6 @@ border radius is also set for design.
   margin: 30px auto;
   background-color: #ffa033;
   margin-bottom: 30px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 
 /*button class for the buttons in portfolio page on visit now option
@@ -63,18 +59,11 @@ border radius is also set for design.
 .btn-general {
   font-family: "Raleway", sans-serif;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   font-size: 15px;
   text-transform: uppercase;
   padding: 8px 10px;
   transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
+
 }
 
 /*button for portfolio page visit now option to set the color and font size
@@ -133,18 +122,12 @@ and the border is 2 px solid
 /*for hamburger menu*/
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  -webkit-transition: transform 0.35s ease-in-out;
-  -moz-transition: transform 0.35s ease-in-out;
-  -o-transition: transform 0.35s ease-in-out;
   transition: transform 0.35s ease-in-out;
 }
 
 /*element class for nav bar when not collapsed*/
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
   top: 10px;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
   transform: rotate(135deg);
   opacity: 0.9;
 }
@@ -157,9 +140,6 @@ and the border is 2 px solid
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
   bottom: 12px;
-  -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
   opacity: 0.9;
 }
@@ -194,19 +174,11 @@ margin box shadow color transition for animation is set
   margin-top: 10px;
   box-shadow: 3px 4px 3px gray;
   transition: 0.3s all ease-in;
-  -webkit-transition: 0.3s all ease-in;
-  -moz-transition: 0.3s all ease-in;
-  -ms-transition: 0.3s all ease-in;
-  -o-transition: 0.3s all ease-in;
 }
 
 /*on mouse hovering button will move 10px on x axis */
 .home-left button:hover {
   transform: translateX(10px);
-  -webkit-transform: translateX(10px);
-  -moz-transform: translateX(10px);
-  -ms-transform: translateX(10px);
-  -o-transform: translateX(10px);
 }
 
 /* when button is clicked no outline and box shadow */
@@ -313,25 +285,14 @@ margin and padding is set
   -webkit-transition: 0.8s all ease;
   -o-transition: 0.8s all ease;
   transition: 0.8s all ease;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 
 /*hover for img projects */
 /*two dimensional transform with scale of 1.5*/
 #projects img:hover {
   transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////
@@ -536,7 +497,7 @@ on cv page there will not be any clip-path*/
   width: 25%;
   height: 2px;
   background-color: #ffd016;
-  margin: o auto;
+  margin: auto;
   border: none;
   transition: all 0.5s;
   /*single transition for the underline*/
