@@ -17,3 +17,5 @@ I tried to fix these errors but I could not do it
 # This is for the contact.html
 
 # ![alt text](https://github.com/rezaulhreza/assignment2/blob/master/assets/images/validation/contact.jpg?raw=true)
+
+I was unable to solve these errors with the knowledge I have so far.
